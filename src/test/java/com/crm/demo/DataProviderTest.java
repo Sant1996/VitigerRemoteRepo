@@ -22,11 +22,11 @@ public class DataProviderTest {
 		driver.findElement(By.name("user_name")).sendKeys("admin");
 		driver.findElement(By.name("user_password")).sendKeys("admin");
 		driver.findElement(By.id("submitButton")).click();
-		
 		driver.findElement(By.linkText("More")).click();
 		driver.findElement(By.name("Sales Order")).click();
 		driver.findElement(By.xpath("//img[@alt='Create Sales Order...']")).click();
 		System.out.println("github pulled succefully");
+		System.out.println("Santhosh");
 		
 		
 		
